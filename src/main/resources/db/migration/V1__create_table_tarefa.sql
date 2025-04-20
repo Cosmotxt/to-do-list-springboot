@@ -1,0 +1,10 @@
+CREATE TABLE task (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    titulo VARCHAR(100) NOT NULL,
+    descricao VARCHAR(300),
+    status ENUM('PENDENTE', 'EM_ANDAMENTO', 'CONCLUIDA'),
+    dataCriacao DATETIME DEFAULT CURRENT_TIMESTAMP,
+    dataConclusao DATETIME,
+
+    PRIMARY KEY(id)
+)
