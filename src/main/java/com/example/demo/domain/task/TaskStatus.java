@@ -1,4 +1,4 @@
-package com.example.demo.task;
+package com.example.demo.domain.task;
 
 public enum TaskStatus {
     PENDENTE,
